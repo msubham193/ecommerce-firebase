@@ -1,10 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
+import HomeContainer from "./HomeContainer";
 
 const MainContainer = () => {
-    const [scrollValue, setScrollValue] = useState(0);
+  const [scrollValue, setScrollValue] = useState(0);
   return (
-    <div>MainContainer</div>
-  )
-}
+    <div>
+      <HomeContainer />
+    </div>
+  );
+};
 
-export default MainContainer
+export default MainContainer;
